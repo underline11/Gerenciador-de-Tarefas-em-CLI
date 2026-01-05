@@ -1,0 +1,17 @@
+# Gerenciador de Tarefas em Python
+
+Aplicação em linha de comando para cadastro, listagem e conclusão de tarefas.
+
+## Tecnologias
+- Python
+- JSON
+
+## Funcionalidades
+- Adicionar tarefas
+- Listar tarefas
+- Marcar tarefas como concluídas
+- Persistência em arquivo
+
+## Como executar
+```bash
+python main.py
