@@ -1,17 +1,21 @@
-# Gerenciador de Tarefas em Python
+#  Gerenciador de Tarefas em Python (CLI)
 
-Aplicação em linha de comando para cadastro, listagem e conclusão de tarefas.
+Um aplicativo de linha de comando simples e eficiente para organizar suas tarefas diárias, utilizando persistência de dados em formato JSON.
 
-## Tecnologias
-- Python
-- JSON
+##  Funcionalidades
+- **Adicionar Tarefas:** Insira novos itens na sua lista.
+- **Listagem em Tempo Real:** Visualize suas tarefas com indicadores de status (✔/✖).
+- **Concluir Tarefas:** Marque itens como finalizados.
+- **Persistência de Dados:** Suas tarefas são salvas em um arquivo `tarefas.json`, garantindo que não sejam perdidas ao fechar o programa.
 
-## Funcionalidades
-- Adicionar tarefas
-- Listar tarefas
-- Marcar tarefas como concluídas
-- Persistência em arquivo
+##  Tecnologias
+- **Python 3.x**
+- **Biblioteca `json`:** Para armazenamento de dados.
+- **Biblioteca `os`:** Para manipulação de arquivos do sistema.
 
-## Como executar
-```bash
-python main.py
+##  Como Executar
+1. Certifique-se de ter o Python instalado.
+2. Baixe o arquivo `main.py`.
+3. Execute o comando:
+   
+   python main.py
